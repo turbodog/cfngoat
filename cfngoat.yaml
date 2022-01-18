@@ -68,6 +68,7 @@ Resources:
       Tags:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-ebs"
+      Encrypted: True
 
   ### CFN Does not Support Volume Snapshot
 
